@@ -36,8 +36,8 @@ function animationLooper(){
     
     // style the background
     const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-    gradient.addColorStop(0, 'rgba(35, 7, 77, 1)');
-    gradient.addColorStop(1, 'rgba(204, 83, 51, 1)');
+    gradient.addColorStop(0, '#1B1845');
+    gradient.addColorStop(1, '#a249de');
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     
